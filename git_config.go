@@ -1,13 +1,13 @@
 package git_config
 
 import (
-	"github.com/scmn-dev/gh-api/pkg/cmdutil"
-	"github.com/scmn-dev/gh-api/api"
-	"github.com/scmn-dev/gh-api/core/ghinstance"
+	"github.com/abdfnx/gh-api/pkg/cmdutil"
+	"github.com/abdfnx/gh-api/api"
+	"github.com/abdfnx/gh-api/core/ghinstance"
 	"net/http"
-	"github.com/scmn-dev/gh-api/pkg/iostreams"
-	"github.com/scmn-dev/gh-api/core/ghrepo"
-	"github.com/scmn-dev/gh-api/pkg/cmd/factory"
+	"github.com/abdfnx/gh-api/pkg/iostreams"
+	"github.com/abdfnx/gh-api/core/ghrepo"
+	"github.com/abdfnx/gh-api/pkg/cmd/factory"
 )
 
 type ConfStruct struct {
